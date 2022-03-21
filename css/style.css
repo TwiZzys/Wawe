@@ -213,10 +213,10 @@ body {
   max-width: 293px;
   margin-bottom: 10px;
 }
-.expertise__item-img{
+.expertise__item-img {
   display: inline-block;
 }
-.expertise__item-inner{
+.expertise__item-inner {
   display: flex;
 }
 .expertise__item-inner span {
@@ -227,10 +227,33 @@ body {
   padding-left: 10px;
 }
 
-.expertise__text{
+.expertise__text {
   margin-bottom: 30px;
 }
 .expertise__item:last-child,
-.expertise__text:last-child{
+.expertise__text:last-child {
   margin-bottom: 0;
+}
+.education {
+  position: relative;
+  padding: 200px 0 350px;
+}
+.education__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 850px;
+  object-fit: cover;
+}
+.education__title {
+  text-align: left;
+}
+
+.education__content {
+  max-width: 507px;
+}
+
+.education__text {
+  margin-bottom: 30px;
 }
