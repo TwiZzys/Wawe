@@ -364,3 +364,62 @@ body {
   line-height: 18px;
   color: #242121;
 }
+.blog {
+  padding-bottom: 200px;
+}
+.blog__title {
+  margin-bottom: 230px;
+}
+
+.blog-slider__item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.blog-slider__title {
+  max-width: 600px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+}
+.blog-slider__subtitle {
+  display: block;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+.blog-slider__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 800px;
+}
+
+.blog-slider .slick-dots {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 90px;
+}
+.blog-slider .slick-dots li {
+  line-height: 0;
+  font-size: 0;
+}
+.blog-slider .slick-dots li + li {
+  margin-left: 15px;
+}
+.blog-slider .slick-dots button {
+  border-radius: 50%;
+  border: none;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  cursor: pointer;
+}
+.blog-slider .slick-active button {
+  background: #00b2a0;
+}
