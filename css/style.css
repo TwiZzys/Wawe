@@ -423,3 +423,36 @@ body {
 .blog-slider .slick-active button {
   background: #00b2a0;
 }
+
+.team {
+  padding-bottom: 200px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.team__title {
+  margin-bottom: 210px;
+}
+
+.team__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__item {
+  width: 330px;
+  text-align: center;
+}
+
+.team__img{
+  margin-bottom: 25px;
+  max-width: 330px;
+  max-height: 450px;
+  object-fit: cover;
+}
+
+.team__position {
+  font-weight: 400;
+  font-size: 14px;
+}
