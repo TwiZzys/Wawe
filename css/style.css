@@ -621,3 +621,11 @@ body {
 .contacts__social-link:hover{
   color: #00B2A0;
 }
+
+.footer{
+  background: #00B2A0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
