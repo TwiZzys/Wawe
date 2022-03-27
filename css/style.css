@@ -636,6 +636,9 @@ body {
   .about__text {
     margin-right: 100px;
   }
+  .education__img{
+    display: none;
+  }
 }
 @media(max-width: 1100px) {
   .benefits__items{
@@ -759,13 +762,16 @@ body {
     line-height: 16px;
   }
   .title{
-    font-size: 15px;
+    font-size: 20px;
     line-height: 25px;
     margin-bottom: 20px;
   }
   .title::after{
     font-size: 30px;
     line-height: 40px;
+  }
+  .about__title{
+    font-size: 15px;
   }
   .section{
     padding: 30px 0;
