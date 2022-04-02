@@ -710,6 +710,14 @@ body {
   .benefits__item {
     margin-bottom: 30px;
   }
+  .pricing__items{
+    display: block;
+  }
+  .pricing .pricing__list{
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media(max-width: 1024px) {
