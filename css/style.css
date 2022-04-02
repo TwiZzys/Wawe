@@ -712,6 +712,14 @@ body {
   .blog-slider__content {
     align-items: center;
   }
+
+  .team__items {
+    display: block;
+  }
+
+  .team__title {
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width: 830px) {
@@ -869,6 +877,15 @@ body {
     max-width: 400px;
     font-size: 40px;
     line-height: 48px;
+  }
+
+  .team__item {
+    width: 100%;
+  }
+
+  .team__img {
+    display: inline-block;
+    max-width: 100%;
   }
 }
 
