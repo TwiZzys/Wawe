@@ -709,6 +709,9 @@ body {
   .contacts__info {
     margin-bottom: 100px;
   }
+  .footer{
+    padding: 40px 0;
+  }
 }
 
 @media(max-width: 1100px) {
@@ -775,6 +778,9 @@ body {
   .contacts__form-btn {
     font-size: 20px;
     padding: 20px 60px;
+  }
+  .footer{
+    padding: 20px 0;
   }
 }
 
