@@ -660,7 +660,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 200px;
+  padding: 70px 0;
 }
 
 @media (max-width: 1200px) {
@@ -700,6 +700,15 @@ body {
   .section {
     padding: 100px 0;
   }
+
+  .contacts__map {
+    max-width: 100%;
+    margin: 0 10px 100px;
+  }
+
+  .contacts__info {
+    margin-bottom: 100px;
+  }
 }
 
 @media(max-width: 1100px) {
@@ -710,10 +719,12 @@ body {
   .benefits__item {
     margin-bottom: 30px;
   }
-  .pricing__items{
+
+  .pricing__items {
     display: block;
   }
-  .pricing .pricing__list{
+
+  .pricing .pricing__list {
     margin-bottom: 25px;
     width: 100%;
     text-align: center;
@@ -741,6 +752,29 @@ body {
 
   .team__title {
     margin-bottom: 100px;
+  }
+
+  .contacts__social-link {
+    font-size: 17px;
+    line-height: 14px;
+  }
+
+  .contacts {
+    padding-bottom: 50px;
+  }
+
+  .contacts__info {
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+
+  .contacts__form-textarea {
+    margin-bottom: 50px;
+  }
+
+  .contacts__form-btn {
+    font-size: 20px;
+    padding: 20px 60px;
   }
 }
 
@@ -815,10 +849,6 @@ body {
     margin-bottom: 20px;
   }
 
-  .section {
-    padding: 100px 0;
-  }
-
   .benefits__items {
     margin-bottom: 40px;
   }
@@ -853,6 +883,37 @@ body {
 
   .video-popup {
     background-position: center;
+  }
+
+  .contacts__inner {
+    display: block;
+  }
+
+  .contacts__form {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .contacts__info {
+    text-align: center;
+  }
+
+  .contacts__info-text,
+  .contacts__info-link {
+    font-size: 15px;
+  }
+
+  .contacts__info-link:last-child {
+    margin-bottom: 0;
+  }
+
+  .contacts__info-link {
+    width: 100%;
+  }
+
+  .contacts__social-link {
+    font-size: 15px;
+    line-height: 15px;
   }
 }
 
@@ -957,6 +1018,16 @@ body {
   .blog-slider__title {
     font-size: 32px;
     line-height: 40px;
+  }
+
+  .contacts__info {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .contacts__info-text,
+  .contacts__info-link {
+    margin-bottom: 15px;
   }
 }
 
