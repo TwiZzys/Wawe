@@ -104,6 +104,18 @@ body {
   padding: 200px 0;
 }
 
+.toTop{
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: transparent;
+  z-index: 99;
+  display: none;
+}
+
 .header {
   background: url(../images/header/header-bg.jpg) no-repeat top center/cover;
   padding: 35px 0 0;
