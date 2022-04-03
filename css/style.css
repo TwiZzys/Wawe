@@ -765,6 +765,10 @@ body {
     display: block;
   }
 
+  .team__item{
+    margin-bottom: 25px;
+  }
+
   .team__title {
     margin-bottom: 100px;
   }
